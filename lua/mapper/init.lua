@@ -1,4 +1,4 @@
-local merge = require("utils").merge
+local merge = require("mapper.utils").merge
 local cheatsheet = require("mapper-cheatsheet")
 -- Initialize M once
 local M = {}
