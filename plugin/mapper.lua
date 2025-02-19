@@ -5,4 +5,7 @@ vim.api.nvim_create_user_command("MapperOutput", function(args)
     else
         M.output_mappings()
     end
-end)
+end, {
+    nargs = "?", -- Optional argument
+    desc = "Output mapper keymaps"
+})
